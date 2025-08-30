@@ -1,0 +1,24 @@
+{
+  "name": "danuxmods",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@minecraft/server": "^2.1.0",
+    "@minecraft/server-gametest": "^1.0.0-beta.1.21.60-preview.24",
+    "@minecraft/server-ui": "^2.0.0",
+    "@minecraft/vanilla-data": "^1.21.101",
+    "typescript": "^5.9.2"
+  }
+}

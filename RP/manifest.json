@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"danux"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.50"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "DanuxMods",
+		"description": "",
+		"min_engine_version": [
+			1,
+			21,
+			90
+		],
+		"uuid": "16efa271-238e-42ee-9c58-625053d3bd7f",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "8df47d2c-69a8-472a-9ff3-27d0b1d5d62f",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "9ad5148e-a419-433d-a4a8-300bb08d9c53",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}
