@@ -18,7 +18,7 @@
 			"minecraft:icon": "danux_ultima_sword",
 			"minecraft:damage": 9,
 			"minecraft:enchantable": {
-				"value": 14,
+				"value": 34,
 				"slot": "sword"
 			},
 			"minecraft:repairable": {
@@ -27,7 +27,7 @@
 						"items": [
 							"minecraft:iron_ingot"
 						],
-						"repair_amount": "query.max_durability * 0.25"
+						"repair_amount": "query.max_durability * 0.15"
 					},
 					{
 						"items": [
