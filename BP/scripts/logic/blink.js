@@ -1,7 +1,8 @@
-import { BLINK_DISTANCE, PATH_RADIUS, DAMAGE, STEP, ITEM_ID } from "../config.js";
+import { BLINK_DISTANCE, PATH_RADIUS, DAMAGE, STEP, ITEM_ID, ULTIMA_SWORD_PARTICLE } from "../config.js";
 import { add, mul, len2D } from "../utils/vector.js";
 import { isSafeStand } from "../utils/blocks.js";
 import { EntityOnFireComponent, EntityComponentTypes, Entity } from "@minecraft/server";
+import { spawnRing } from "./particle.js"
 
 // Hilfsfunktionen – 1:1 wie in deiner Datei
 const floor = v => ({ x: Math.floor(v.x), y: Math.floor(v.y), z: Math.floor(v.z) });
@@ -74,6 +75,7 @@ export function handleBlinkUse(player) {
     try {
       // einfache Variante: nur Betrag
       e.applyDamage?.(DAMAGE);
+      spawnRing(e, ULTIMA_SWORD_PARTICLE);
       let health = e.getComponent?.(EntityComponentTypes.Health);
       hits++;
       player.sendMessage(`→ getroffen: ${e.typeId} noch ${health.currentValue} Herzen`);

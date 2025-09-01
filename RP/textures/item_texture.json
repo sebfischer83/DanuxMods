@@ -4,6 +4,9 @@
 	"texture_data": {
 		"danux_ultima_sword": {
 			"textures": "textures/items/ultima_sword"
+		},
+		"danux_thunderfang": {
+			"textures": "textures/items/thunderfang"
 		}
 	}
 }
