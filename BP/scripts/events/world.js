@@ -6,7 +6,7 @@ import {
 
 // 1:1 dieselben Events wie in deiner Datei
 export function registerWorldEvents() {
-  world.afterEvents.worldInitialize.subscribe(() => {
+  world.afterEvents.worldLoad.subscribe(() => {
     try {
       world.sendMessage("✅ Mein Script läuft! Willkommen in der Welt!");
       console.warn("✅ Weltinitialisierung erfolgreich!");
