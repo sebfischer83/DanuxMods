@@ -20,5 +20,8 @@
     "@minecraft/server-ui": "^2.0.0",
     "@minecraft/vanilla-data": "^1.21.101",
     "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "bc-minecraft-bedrock-vanilla-data": "^1.21.80-8"
   }
 }

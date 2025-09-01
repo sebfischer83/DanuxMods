@@ -7,6 +7,12 @@
 		},
 		"danux_thunderfang": {
 			"textures": "textures/items/thunderfang"
+		},
+		"danux_flamethrower": {
+			"textures": "textures/items/flamethrower"
+		},
+		"danux_deathbringer": {
+			"textures": "textures/items/deathbringer"
 		}
 	}
 }

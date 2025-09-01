@@ -10,7 +10,6 @@ function dist2(a: { x: number, y: number, z: number }, b: { x: number, y: number
     return dx * dx + dy * dy + dz * dz;
 }
 
-// sehr einfache Filterung: nur "lebensähnliche" Ziele, keine Spieler/Projektile/Items
 function isMobLike(e: Entity): boolean {
     if (e instanceof Player) return false;
     const id = e.typeId ?? "";

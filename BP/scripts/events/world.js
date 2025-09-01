@@ -1,4 +1,8 @@
-import { world, system } from "@minecraft/server";
+import {
+  world,
+  system,
+  Player
+} from "@minecraft/server";
 
 // 1:1 dieselben Events wie in deiner Datei
 export function registerWorldEvents() {
