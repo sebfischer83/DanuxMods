@@ -2,7 +2,7 @@ import { Entity, Player } from "@minecraft/server";
 
 
 export function handleDeathbringer(player: Player): void {
-    player.applyKnockback({ x: 0, z: 0 }, 0.75);
+    player.applyKnockback({ x: 0, z: 0 }, 0.85);
     player.setDynamicProperty("danux:last_launch_ts", Date.now());
 }
 

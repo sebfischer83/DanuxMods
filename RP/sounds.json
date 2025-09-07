@@ -1,1 +1,29 @@
-{}
+{
+	"entity_sounds": {
+		"entities": {
+			"danux:black_cat": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient.tame": "mob.black_cat.meow",
+					"ambient": "mob.black_cat.straymeow",
+					"hurt": {
+						"sound": "mob.black_cat.hit",
+						"volume": 0.45
+					},
+					"death": {
+						"sound": "mob.black_cat.hit",
+						"volume": 0.5,
+						"pitch": 0.9
+					},
+					"purr": "mob.black_cat.purr",
+					"purreow": "mob.black_cat.purreow",
+					"eat": "mob.black_cat.eat"
+				}
+			}
+		}
+	}
+}

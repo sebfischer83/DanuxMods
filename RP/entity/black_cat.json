@@ -1,0 +1,65 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "danux:black_cat",
+			"materials": {
+				"default": "cat"
+			},
+			"textures": {
+				"white": "textures/entity/black_cat/black_cat_white",
+				"black": "textures/entity/black_cat/black_cat_tuxedo",
+				"red": "textures/entity/black_cat/black_cat_redtabby",
+				"siamese": "textures/entity/black_cat/black_cat_siamesecat",
+				"british": "textures/entity/black_cat/black_cat_britishshorthair",
+				"calico": "textures/entity/black_cat/black_cat_calico",
+				"persian": "textures/entity/black_cat/black_cat_persian",
+				"ragdoll": "textures/entity/black_cat/black_cat_ragdoll",
+				"tabby": "textures/entity/black_cat/black_cat_tabby",
+				"jellie": "textures/entity/black_cat/black_cat_jellie",
+				"all_black": "textures/entity/black_cat/black_cat_allblackcat",
+				"white_tame": "textures/entity/black_cat/black_cat_white_tame",
+				"black_tame": "textures/entity/black_cat/black_cat_tuxedo_tame",
+				"red_tame": "textures/entity/black_cat/black_cat_redtabby_tame",
+				"siamese_tame": "textures/entity/black_cat/black_cat_siamesecat_tame",
+				"british_tame": "textures/entity/black_cat/black_cat_britishshorthair_tame",
+				"calico_tame": "textures/entity/black_cat/black_cat_calico_tame",
+				"persian_tame": "textures/entity/black_cat/black_cat_persian_tame",
+				"ragdoll_tame": "textures/entity/black_cat/black_cat_ragdoll_tame",
+				"tabby_tame": "textures/entity/black_cat/black_cat_tabby_tame",
+				"all_black_tame": "textures/entity/black_cat/black_cat_allblackcat_tame",
+				"jellie_tame": "textures/entity/black_cat/black_cat_jellie_tame"
+			},
+			"geometry": {
+				"default": "geometry.black_cat"
+			},
+			"animations": {
+				"sneak": "animation.black_cat.sneak",
+				"walk": "animation.black_cat.walk",
+				"sprint": "animation.black_cat.sprint",
+				"sit": "animation.black_cat.sit",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.black_cat.baby_transform",
+				"lie_down": "animation.black_cat.lie_down"
+			},
+			"animation_controllers": [
+				{
+					"look_at_target": "controller.animation.black_cat.look_at_target"
+				},
+				{
+					"move": "controller.animation.black_cat.move"
+				},
+				{
+					"baby": "controller.animation.black_cat.baby"
+				}
+			],
+			"render_controllers": [
+				"controller.render.black_cat"
+			],
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#FFFFFF"
+			}
+		}
+	}
+}

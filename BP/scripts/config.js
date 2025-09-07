@@ -10,3 +10,6 @@ export const ULTIMA_SWORD_RADIUS = 1.1;
 export const THUNDERFANG_ID = "danux:thunderfang";
 export const FLAMETHROWER_ID = "danux:flamethrower";
 export const DEATHBRINGER_ID = "danux:deathbringer";
+export const CAT_GRENADE_ID = "danux:thrown_cat_grenade";
+export const BANHAMMER_ID = "danux:banhammer";
+export const ULTIMA_PICKAXE = "danux:ultime_pickaxe";

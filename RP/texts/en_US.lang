@@ -3,3 +3,13 @@ item.danux:ultima_sword=Ultima Schwert
 item.danux:thunderfang=Blitzzahn
 item.danux:flamethrower=Flammenwerfer
 item.danux:deathbringer=Todesbringer
+item.danux:cat_granade=MIauate
+
+entity.danux:thrown_cat_granade.name=MIauate
+item.danux:cat_grenade=Miaunate
+
+entity.danux:thrown_cat_grenade.name=Miaunate
+item.danux:banhammer=Bannhammer
+item.danux:ultime_pickaxe=Ultima Hacke
+item.spawn_egg.entity.danux:black_cat.name=Spawn Schwarze Katze
+entity.danux:black_cat.name=Schwarze Katze

@@ -1,0 +1,22 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "danux:cat_grenade",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 32,
+			"minecraft:icon": "danux_cat_grenade",
+			"minecraft:throwable": {
+				"do_swing_animation": true,
+				"launch_power_scale": 1
+			},
+			"minecraft:projectile": {
+				"projectile_entity": "danux:thrown_cat_grenade"
+			}
+		}
+	}
+}

@@ -1,4 +1,125 @@
 {
 	"format_version": "1.14.0",
-	"sound_definitions": {}
+	"sound_definitions": {
+		"mob.black_cat.eat": {
+			"sounds": [
+				"sounds/mob/cat/eat1",
+				"sounds/mob/cat/eat2"
+			]
+		},
+		"mob.black_cat.hiss": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/mob/cat/hiss1",
+					"volume": 0.4
+				},
+				{
+					"name": "sounds/mob/cat/hiss2",
+					"volume": 0.4
+				},
+				{
+					"name": "sounds/mobcat/hiss3",
+					"volume": 0.4
+				}
+			]
+		},
+		"mob.black_cat.hit": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/cat/hitt1",
+				"sounds/mob/cat/hitt2",
+				"sounds/mob/cat/hitt3"
+			]
+		},
+		"mob.black_cat.meow": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/mob/cat/meow1",
+					"volume": 0.4
+				},
+				{
+					"name": "sounds/mob/cat/meow2",
+					"volume": 0.3
+				},
+				{
+					"name": "sounds/mob/cat/meow3",
+					"volume": 0.4
+				},
+				{
+					"name": "sounds/mob/cat/meow4",
+					"volume": 0.3
+				}
+			]
+		},
+		"mob.black_cat.beg": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/mob/cat/beg1",
+					"volume": 0.7
+				},
+				{
+					"name": "sounds/mob/cat/beg2",
+					"volume": 0.7
+				},
+				{
+					"name": "sounds/mob/cat/beg3",
+					"volume": 0.7
+				}
+			]
+		},
+		"mob.black_cat.straymeow": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/mob/cat/stray/idle1",
+					"volume": 0.35
+				},
+				{
+					"name": "sounds/mob/cat/stray/idle2",
+					"volume": 0.35
+				},
+				{
+					"name": "sounds/mob/cat/stray/idle3",
+					"volume": 0.35
+				},
+				{
+					"name": "sounds/mob/cat/stray/idle4",
+					"volume": 0.35
+				}
+			]
+		},
+		"mob.black_cat.purr": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/mob/cat/purr1",
+					"volume": 0.4
+				},
+				{
+					"name": "sounds/mob/cat/purr2",
+					"volume": 0.4
+				},
+				{
+					"name": "sounds/mob/cat/purr3",
+					"volume": 0.4
+				}
+			]
+		},
+		"mob.black_cat.purreow": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/mob/cat/purreow1",
+					"volume": 0.4
+				},
+				{
+					"name": "sounds/mob/cat/purreow2",
+					"volume": 0.4
+				}
+			]
+		}
+	}
 }

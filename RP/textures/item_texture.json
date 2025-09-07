@@ -13,6 +13,15 @@
 		},
 		"danux_deathbringer": {
 			"textures": "textures/items/deathbringer"
+		},
+		"danux_cat_grenade": {
+			"textures": "textures/items/cat_grenade"
+		},
+		"danux_banhammer": {
+			"textures": "textures/items/banhammer"
+		},
+		"danux_ultime_pickaxe": {
+			"textures": "textures/items/ultime_pickaxe"
 		}
 	}
 }
